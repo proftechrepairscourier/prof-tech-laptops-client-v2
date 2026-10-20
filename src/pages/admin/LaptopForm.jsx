@@ -187,7 +187,7 @@ export default function LaptopForm() {
                 {type.label}
               </button>
             ))}
-          </div8>
+          </div>
         </div>
 
         {/* 2. BASIC INFO */}
@@ -351,7 +351,7 @@ export default function LaptopForm() {
 
           <label className="flex cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-dashed border-slate-300 bg-slate-50 px-4 py-8 text-center transition hover:border-brand-400 hover:bg-brand-50">
             <input type="file" accept="image/*" multiple onChange={(e) => uploadImages(e.target.files)} className="hidden" />
-            <span className="text-2xl mb-2">📸</span a>
+            <span className="text-2xl mb-2">📸</span>
             <span className="text-sm font-bold text-slate-700">
               {uploading ? 'Uploading...' : 'Click here to upload images'}
             </span>
